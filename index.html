@@ -63,6 +63,23 @@
     .bio-copy a {
       color: green;
     }
+
+    .test-box {
+      background: #9db6dd;
+      margin: 50px;
+      width: 200px;
+    }
+
+    .test-box-nosizing {
+      border: 10px solid #999;
+      padding: 40px;
+    }
+
+    .test-box-sizing {
+      box-sizing: border-box;
+      width: auto;
+      margin-top: 100px;
+    }
   </style>
 </head>
 
@@ -83,6 +100,15 @@
   </div>
 
   <h2>I'm an h2</h2>
+  <div class="test-box">
+    200px wide
+  </div>
+  <div class="test-box test-box-nosizing">
+    200px wide + border + padding = 300px
+  </div>
+  <div class="test-box test-box-nosizing test-box-sizing">
+    200px wide + border + padding + box-sizing: border-box = 200px
+  </div>
   <div class="bio-wrapper">
     <div class="bio-box">
       <h3>Michael Hartl</h3>
