@@ -19,10 +19,11 @@ h1 {
   margin-top: 0;
 }
 a {
-  color: #f00;
+  color: #557c83;
 }
 p {
   line-height: 1.5;
+  margin: 0.75em 0;
 }
 h2 ~ p {
   font-size: 0.8em;
@@ -196,16 +197,23 @@ h2 ~ p {
   text-align: center;
 }
 .home-callout {
+  display: flex;
+  align-items: center;
   background-color: #000;
   color: #fff;
-  padding: 7vh;
+  padding: 7vh 0;
 }
 .callout-title {
+  flex-grow: 1;
+  flex-basis: 0;
   font-size: 5.75vw;
   text-align: right;
   text-transform: uppercase;
 }
 .callout-copy {
+  flex-shrink: 0;
+  flex-basis: 45em;
+  padding: 0 3vw;
   font-size: 0.8rem;
 }
 /* BIO STYLES */
@@ -241,5 +249,5 @@ h2 ~ p {
   font-size: 1em;
 }
 .bio-copy a {
-  color: green;
+  color: #557c83;
 }
