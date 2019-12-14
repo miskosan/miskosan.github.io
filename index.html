@@ -7,13 +7,13 @@ layout: default
       <h1>CODE DANGEROUSLY</h1>
       <ul class="social-list">
         <li>
-          <a href="https://example.com/" class="social-link">Fb</a>
+          <a class="social-link" href="https://example.com/">Fb</a>
         </li>
         <li>
-          <a href="https://example.com/" class="social-link">Tw</a>
+          <a class="social-link" href="https://example.com/">Tw</a>
         </li>
         <li>
-          <a href="https://example.com/" class="social-link">Gh</a>
+          <a class="social-link" href="https://example.com/">Gh</a>
         </li>
       </ul>
     </div>
@@ -24,28 +24,14 @@ layout: default
     <div class="callout-copy">
       <p>
         Learn Enough to Be Dangerous is a leader in the movement to teach the world
-        <em>technical sophistication</em>, which includes both "hard skills" like
-        coding, command lines, and version control, and "soft skills" like guessing
-        keyboard shortcuts, Googling error messages, and knowing when to just
-        reboot the darn thing.
+        <em>technical sophistication</em>, which includes both "hard skills" lik coding, command lines, and version control, and "soft skills" like guessing keyboard shortcuts, Googling error messages, and knowing when to just reboot the darn thing.
       </p>
       <p>
-        We believe there are <strong>at least a billion people</strong> who can
-        benefit from learning technical sophistication, probably more. To join our
-        movement, <a href="https://learnenough.com/#email_list">sign up for our
-          official email list</a> now.
+        We believe there are <strong>at least a billion people</strong> who can benefit from learning technical sophistication, probably more. To join our movement, <a href="https://learnenough.com/#email_list">sign up for our official email list</a> now.
       </p>
       <h3>Background</h3>
       <p>
-        Learn Enough to Be Dangerous is an outgrowth of the
-        <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a> and the
-        <a href="https://www.softcover.io/">Softcover publishing platform</a>. This
-        page is part of the sample site for <a href="https://learnenough.com/css-tutorial"><em>Learn Enough CSS and Layout
-            to Be Dangerous</em></a>, which teaches the basicics of
-        <strong>C</strong>ascading <strong>S</strong>tyle
-        <strong>S</strong>heets, the language that
-        allows web pages to be styled. Other related tutorials can be found at
-        <a href="https://learnenough.com/">learnenough.com</a>.
+        Learn Enough to Be Dangerous is an outgrowth of the <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a> and the <a href="https://www.softcover.io/">Softcover publishing platform</a>. This page is part of the sample site for <a href="https://learnenough.com/css-tutorial"><em>Learn Enough CSS and Layout to Be Dangerous</em></a>, which teaches the basicics of <strong>C</strong>ascading<strong> S</strong>tyle<strong> S</strong>heets, the language that allows web pages to be styled. Other related tutorials can be found at <a href="https://learnenough.com/">learnenough.com</a>.
       </p>
     </div>
   </div>
@@ -61,8 +47,11 @@ layout: default
         <div class="post-byline">
           <img src="{{ site.posts.first.gravatar }}">
           <a href="{{ site.posts.first.authorTwitter }}" class="social-link">Tw</a>
-          by: {{ site.posts.first.author }}
-          <span> - {{ site.posts.first.date | date_to_string }}</span>
+          by:
+          {{ site.posts.first.author }}
+          <span>
+            -
+            {{ site.posts.first.date | date_to_string }}</span>
         </div>
       </header>
       <div class="posts-image" style="background-image:url({{ site.posts.first.postHero }})"></div>
@@ -83,7 +72,7 @@ layout: default
       <div class="bio-box">
         <img src="https://placekitten.com/g/400/400">
         <h3>Michael Hartl</h3>
-        <a href="https://twitter.com/mhartl" class="social-link">
+        <a class="social-link" href="https://twitter.com/mhartl">
           Tw
         </a>
         <div class="bio-copy">
@@ -91,15 +80,20 @@ layout: default
             Known for his dazzling charm, rapier wit, and unrivaled humility,
             Michael is the creator of the
             <a href="https://www.railstutorial.org/">Ruby on Rails
-              Tutorial</a> and principal author of the
-            <a href="https://learnenough.com/"> Learn Enough to Be Dangerous</a>
+              Tutorial</a>
+            and principal author of the
+            <a href="https://learnenough.com/">
+              Learn Enough to Be Dangerous</a>
             introductory sequence.
           </p>
           <p>
             Michael is also notorious as the founder of
-            <a href="http://tauday.com/">Tau Day</a> and author of
-            <a href="http://tauday.com/tau-manifesto"><em>The Tau
-                Manifesto</em></a>, but rumors that he's secretly a supervillain are
+            <a href="http://tauday.com/">Tau Day</a>
+            and author of
+            <a href="http://tauday.com/tau-manifesto">
+              <em>The Tau
+                Manifesto</em>
+            </a>, but rumors that he's secretly a supervillain are
             slightly exaggerated.
           </p>
         </div>
@@ -107,7 +101,7 @@ layout: default
       <div class="bio-box">
         <img src="https://placekitten.com/g/400/400">
         <h3>Lee Donahoe</h3>
-        <a href="https://twitter.com/leedonahoe" class="social-link">
+        <a class="social-link" href="https://twitter.com/leedonahoe">
           Tw
         </a>
         <div class="bio-copy">
@@ -122,7 +116,7 @@ layout: default
       <div class="bio-box">
         <img src="https://placekitten.com/g/400/400">
         <h3>Nick Merwin</h3>
-        <a href="https://twitter.com/nickmerwin" class="social-link">
+        <a class="social-link" href="https://twitter.com/nickmerwin">
           Tw
         </a>
         <div class="bio-copy">
